@@ -9,10 +9,11 @@
     <title>Document</title>
 </head>
 <body>
-<form action="Hello.php" method="post">
+<form action="Hello.php" method="post" enctype="multipart/form-data">
 First Name: <input type="text" name="name" class="fname" pattern="[A-Za-z]{1,}"><br>
 Last Name: <input type="text" name="lname" class="lname" pattern="[A-Za-z]{1,}"><br>
 Full Name: <input type="text" name="Fname" class="Fulname" disabled><br>
+Image: <input type="file" name = "image" />
 <input type="submit" class="submit">
 </form>
 </body>
