@@ -7,12 +7,15 @@
     <script src ="./jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <form action="Hello.php" method="post" enctype="multipart/form-data">
 First Name: <input type="text" name="name" class="fname" pattern="[A-Za-z]{1,}"><br>
 Last Name: <input type="text" name="lname" class="lname" pattern="[A-Za-z]{1,}"><br>
 Full Name: <input type="text" name="Fname" class="Fulname" disabled><br>
+TextArea: 
+<Textarea name = "textArea" placeholder="enter your subject and marks by using '|' as a seprator"></Textarea><br>
 Image: <input type="file" name = "image" />
 <input type="submit" class="submit">
 </form>

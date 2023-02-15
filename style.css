@@ -1,0 +1,12 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#marks_table tr td{
+    border: 1px solid black;
+}
+#marks_table{
+    border-collapse: collapse;
+}
